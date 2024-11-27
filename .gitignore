@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+
+# Node modules
+node_modules/
+
+# Logs and Database
+*.log
+*.sqlite3
+
+# Flask specific files
+instance/
+
+# Package files
+*.egg-info/
+*.egg
+dist/
+build/
+
+# IDE config
+.idea/
+.vscode/

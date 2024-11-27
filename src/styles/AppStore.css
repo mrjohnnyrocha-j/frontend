@@ -1,0 +1,79 @@
+/* src/components/AppStore.module.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: var(--primary-main, #38979e); /* MUI primary color */
+  color: #fff;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.navbar svg {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.navbar svg:hover {
+  color: #ccc;
+}
+
+.randomItem {
+  padding: 20px;
+  background-color: var(--info-main, #ffeb99); /* MUI info color */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(28, 27, 27, 0.8); /* Semi-transparent dark background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1300; /* Above MUI modals */
+}
+
+.modalContent {
+  background-color: var(--background-paper, #1e1e1e); /* Use MUI background.paper color */
+  padding: 24px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  color: var(--text-primary, #ffffff); /* Use MUI text.primary color */
+}
+
+.collaborators {
+  padding: 16px;
+}
+
+.collaborators h4 {
+  margin-bottom: 12px;
+}
+
+.collaborators ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.collaborators li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.collaborators li:last-child {
+  margin-bottom: 0;
+}
+
+.collaborators Avatar {
+  margin-right: 8px;
+}

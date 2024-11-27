@@ -1,0 +1,157 @@
+{
+  "name": "jtml-project-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for the Jtml Project - A Domain-Specific Language (DSL) for DApp Development",
+  "main": "index.js",
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.13.5",
+    "@emotion/styled": "^11.13.5",
+    "@fortawesome/free-solid-svg-icons": "^6.7.1",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@mui/icons-material": "^6.1.8",
+    "@mui/material": "^6.1.8",
+    "@mui/x-data-grid": "^7.22.3",
+    "@mui/x-date-pickers": "^7.22.3",
+    "@mui/x-date-pickers-pro": "^7.22.3",
+    "@openzeppelin/contracts": "^5.1.0",
+    "@react-spring/web": "^9.7.5",
+    "ace-builds": "^1.36.5",
+    "assert": "^2.1.0",
+    "axios": "^1.7.8",
+    "big-integer": "^1.6.52",
+    "buffer": "^6.0.3",
+    "chart.js": "^4.4.6",
+    "chartjs-adapter-date-fns": "^3.0.0",
+    "chartjs-plugin-zoom": "^2.2.0",
+    "cors": "^2.8.5",
+    "crypto-browserify": "^3.12.1",
+    "crypto-js": "^4.2.0",
+    "dompurify": "^3.2.1",
+    "dotenv": "^16.4.5",
+    "ethers": "^5.7.2",
+    "http-browserify": "^1.7.0",
+    "https-browserify": "^1.0.0",
+    "idb": "^8.0.0",
+    "mathjs": "^14.0.0",
+    "numeric": "^1.2.6",
+    "os-browserify": "^0.3.0",
+    "plotly.js": "^2.35.2",
+    "process": "^0.11.10",
+    "react": "^18.3.1",
+    "react-ace": "^13.0.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.53.2",
+    "react-plotly.js": "^2.6.0",
+    "react-router-dom": "^7.0.1",
+    "react-scripts": "5.0.1",
+    "recharts": "^2.13.3",
+    "simple-statistics": "^7.8.7",
+    "socket.io-client": "^4.8.1",
+    "solc": "^0.8.28",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "text-encoding": "^0.7.0",
+    "url": "^0.11.4",
+    "uuid": "^11.0.3",
+    "vm-browserify": "^1.1.2",
+    "web3": "^4.15.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.0.1",
+    "@types/sinon-chai": "^4.0.0",
+    "chai": "^5.1.2",
+    "eslint": "^9.15.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "ethereum-waffle": "^4.0.10",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "nodemon": "^3.1.7",
+    "react-app-rewired": "^2.2.1",
+    "util": "^0.12.5"
+  },
+  "eslintConfig": {
+    "extends": [
+      "airbnb-base",
+      "react-app"
+    ],
+    "env": {
+      "browser": true,
+      "node": true,
+      "es6": true
+    },
+    "rules": {
+      "quotes": [
+        "error",
+        "single",
+        {
+          "avoidEscape": true
+        }
+      ],
+      "import/no-duplicates": "error",
+      "import/order": [
+        "error",
+        {
+          "groups": [
+            "builtin",
+            "external",
+            "internal",
+            "parent",
+            "sibling",
+            "index"
+          ],
+          "newlines-between": "always"
+        }
+      ],
+      "comma-dangle": [
+        "error",
+        "always-multiline"
+      ],
+      "max-len": [
+        "warn",
+        {
+          "code": 100
+        }
+      ],
+      "no-unused-vars": [
+        "warn",
+        {
+          "argsIgnorePattern": "^_"
+        }
+      ],
+      "semi": [
+        "error",
+        "always"
+      ],
+      "no-trailing-spaces": "error",
+      "no-console": "warn",
+      "no-undef": "error"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
